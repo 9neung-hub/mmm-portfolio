@@ -8,24 +8,29 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <title>MMM for 9Neung</title>
   <style>
+    /* บังคับเต็มจอ ไร้ขอบขาว 100% */
     html, body {
       margin: 0;
       padding: 0;
-      width: 100vw;
-      height: 100vh;
+      width: 100%;
+      height: 100%;
       background-color: #0f172a; 
       overflow: hidden;
+      position: relative;
     }
     iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
       width: 100%;
       height: 100%;
       border: none;
-      /* นำ padding ที่ซ้ำซ้อนออก เพื่อให้แอปชิดขอบ */
+      display: block;
     }
   </style>
 </head>
 <body>
-  <!-- นำลิงก์ Web App ของคุณมาใส่ที่นี่ -->
+  <!-- อย่าลืมเอาลิงก์ Web App ของ Google Apps Script มาใส่ตรงนี้เหมือนเดิมนะครับ -->
   <iframe src="https://script.google.com/macros/s/AKfycbwIJil9_QrkEEM4phJNKqUta0qTHQwih2AWXGjVvENglAlolVxgPyTJkxZ3KtMbpHY/exec?"></iframe>
 </body>
 </html>
