@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>MMM for 9Neung</title>
+  <style>
+    /* บังคับเต็มจอ ไร้ขอบขาว 100% */
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: #0f172a; 
+      overflow: hidden;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      /* บังคับ iframe ให้ใช้พื้นที่ Safe Area */
+      padding-top: env(safe-area-inset-top);
+      padding-bottom: env(safe-area-inset-bottom);
+      padding-left: env(safe-area-inset-left);
+      padding-right: env(safe-area-inset-right);
+    }
+  </style>
+</head>
+<body>
+  <!-- นำลิงก์ Web App ของ Google Apps Script มาใส่แทนที่ลิงก์ด้านล่างนี้ -->
+  <iframe src="https://script.google.com/macros/s/AKfycbwIJil9_QrkEEM4phJNKqUta0qTHQwih2AWXGjVvENglAlolVxgPyTJkxZ3KtMbpHY/exec?"></iframe>
+</body>
+</html>
